@@ -12,9 +12,11 @@ public class Boletín2_1 {
     
         int base,altura;
         
-       base = Integer.parseInt(JOptionPane.showInputDialog("inserte la base"));
-       altura = Integer.parseInt(JOptionPane.showInputDialog("introduzca la altura"));
-       JOptionPane.showMessageDialog(null," el area del triangulo es " + base*altura/2);
+       base = Integer.parseInt(JOptionPane.showInputDialog("Inserte la base"));
+       altura = Integer.parseInt(JOptionPane.showInputDialog("Introduzca la altura"));
+       
+       JOptionPane.showMessageDialog(null," El area del triangulo es " + base*altura/2);
+      
     }
     
 }
